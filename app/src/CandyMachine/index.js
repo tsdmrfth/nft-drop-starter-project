@@ -19,7 +19,6 @@ const opts = {
 const MAX_NAME_LENGTH = 32
 const MAX_URI_LENGTH = 200
 const MAX_SYMBOL_LENGTH = 10
-const MAX_CREATOR_LEN = 32 + 1 + 1
 
 const CandyMachine = ({ walletAddress }) => {
     const [machineStats, setMachineStats] = useState(null)
@@ -39,6 +38,7 @@ const CandyMachine = ({ walletAddress }) => {
     useEffect(() => {
         void setCandyMachineState()
         void fetchMintedNFTs()
+        // eslint-disable-next-line
     }, [])
 
     const setCandyMachineState = async () => {
@@ -342,6 +342,7 @@ const CandyMachine = ({ walletAddress }) => {
                 </div>
             )}
             {isLoadingMints && <div>Loading Mints</div>}
+            {isMinting && <div>Minting...</div>}
             {mints.length > 0 && renderMintedNFTs()}
         </div>
     )
