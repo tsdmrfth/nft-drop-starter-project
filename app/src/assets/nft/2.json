@@ -1,0 +1,19 @@
+{
+    "name": "cargav",
+    "symbol": "",
+    "image": "2.png",
+    "properties": {
+        "files": [
+            {
+                "uri": "2.png",
+                "type": "image/png"
+            }
+        ],
+        "creators": [
+            {
+                "address": "B67UraDdHjhAPzakigs8SDpoRXsZRytXZy4kiBxpYDpZ",
+                "share": 100
+            }
+        ]
+    }
+}

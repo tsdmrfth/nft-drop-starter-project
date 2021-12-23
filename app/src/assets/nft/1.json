@@ -1,0 +1,19 @@
+{
+    "name": "sisko",
+    "symbol": "",
+    "image": "1.png",
+    "properties": {
+        "files": [
+            {
+                "uri": "1.png",
+                "type": "image/png"
+            }
+        ],
+        "creators": [
+            {
+                "address": "B67UraDdHjhAPzakigs8SDpoRXsZRytXZy4kiBxpYDpZ",
+                "share": 100
+            }
+        ]
+    }
+}
